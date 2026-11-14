@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derdinide - Gizlilik Politikası</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.7;
+            color: #333;
+            background: #f9f9f9;
+        }
+        h1 { color: #4A154B; border-bottom: 3px solid #F28C4B; padding-bottom: 10px; }
+        h2 { color: #4A154B; margin-top: 30px; }
+        h3 { color: #555; }
+        .updated { color: #888; font-size: 14px; font-style: italic; }
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #F28C4B;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .contact {
+            background: #e8f4f8;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        a { color: #F28C4B; }
+    </style>
+</head>
+<body>
+
+<h1>Derdinide - Gizlilik Politikası</h1>
+<p class="updated">Son güncelleme: 14 Kasım 2026</p>
+
+<div class="warning">
+    <strong>⚠️ Önemli:</strong> Derdinide bir terapi, psikolog veya tıbbi danışmanlık hizmeti <strong>değildir</strong>. 
+    Acil durumlarda lütfen <strong>112</strong>'yi arayın. 
+    Türkiye'de psikolojik destek için <strong>183</strong> Sosyal Destek Hattı'nı arayabilirsiniz.
+</div>
+
+<h2>1. Hakkımızda</h2>
+<p>
+    Derdinide, kullanıcıların kendi iç seslerini duymalarına yardımcı olan dijital bir yol arkadaşıdır. 
+    Bu uygulama, Harslantech tarafından geliştirilmiştir. 
+    Gizliliğiniz bizim için en önemli önceliktir.
+</p>
+
+<h2>2. Hangi Verileri Topluyoruz?</h2>
+
+<h3>2.1. Cihazınızda Kalan Veriler (Yapay Zekaya Gönderilmez)</h3>
+<ul>
+    <li><strong>Söyleyemediklerim:</strong> Bu alana yazdıklarınız <strong>asla</strong> yapay zekaya veya sunucularımıza gönderilmez. Sadece cihazınızda, PIN ile korunan bir alanda saklanır.</li>
+    <li><strong>Niyetlerim ve iç ses notları:</strong> Niyetleriniz ve iç ses notlarınız cihazınızda saklanır. "Yapay zeka görebilsin mi?" seçeneğini işaretlemediğiniz sürece iç ses notlarınız yapay zekaya gönderilmez.</li>
+    <li><strong>Sohbet geçmişi:</strong> Sohbetleriniz cihazınızda saklanır. Yapay zeka cevabı üretebilmek için son 10 mesaj OpenAI'ye iletilir, ancak bu veriler sunucularımızda kalıcı olarak saklanmaz.</li>
+</ul>
+
+<h3>2.2. Sunucularımıza Gönderilen Veriler</h3>
+<ul>
+    <li><strong>Yapay zeka cevabı için:</strong> Sohbet mesajlarınız ve niyetleriniz (eğer AI'nın görmesine izin verdiyseniz) OpenAI altyapısına iletilir. Bu veriler sadece cevap üretmek için kullanılır, kalıcı olarak saklanmaz.</li>
+    <li><strong>Cihaz token'ı:</strong> Her cihaz için rastgele oluşturulan anonim bir token, isteklerinizi doğrulamak için kullanılır. Bu token kişisel bilgi içermez.</li>
+    <li><strong>IP adresi:</strong> Kötüye kullanımı önlemek için IP adresiniz geçici olarak kaydedilir (5 dakika).</li>
+</ul>
+
+<h2>3. Verilerinizi Nasıl Kullanıyoruz?</h2>
+<ul>
+    <li>Yapay zeka cevabı üretmek</li>
+    <li>Kötüye kullanımı önlemek (rate limit)</li>
+    <li>Uygulamanın güvenliğini sağlamak</li>
+</ul>
+
+<h2>4. Verilerinizi Kimlerle Paylaşıyoruz?</h2>
+<p>Sadece şu üçüncü taraflarla paylaşıyoruz:</p>
+<ul>
+    <li><strong>OpenAI:</strong> Yapay zeka cevabı üretmek için (sohbet mesajları)</li>
+    <li><strong>Render.com:</strong> Sunucu altyapısı için (proxy hizmeti)</li>
+</ul>
+<p>Verileriniz <strong>asla</strong> reklam şirketlerine, veri simsarlarına veya diğer üçüncü taraflara satılmaz.</p>
+
+<h2>5. Verilerinizin Güvenliği</h2>
+<ul>
+    <li>Tüm iletişim <strong>HTTPS</strong> ile şifrelenir.</li>
+    <li>"Söyleyemediklerim" alanı <strong>PIN</strong> ile korunur (SHA-256 hash).</li>
+    <li>Sunucularımızda kalıcı veri saklanmaz.</li>
+</ul>
+
+<h2>6. Verilerinizi Silme Hakkınız</h2>
+<p>
+    Uygulama içindeki <strong>Geçmiş</strong> sekmesinden:
+</p>
+<ul>
+    <li>Tüm verilerinizi <strong>JSON</strong> olarak indirebilirsiniz.</li>
+    <li>Tüm verilerinizi <strong>kalıcı olarak silebilirsiniz</strong>. Bu işlem geri alınamaz.</li>
+</ul>
+
+<h2>7. Çocukların Gizliliği</h2>
+<p>
+    Derdinide, <strong>18 yaş altı</strong> kullanıcılar için tasarlanmamıştır. 
+    Eğer 18 yaşından küçükseniz, lütfen uygulamayı kullanmayın.
+</p>
+
+<h2>8. KVKK Kapsamında Haklarınız</h2>
+<p>6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında şu haklara sahipsiniz:</p>
+<ul>
+    <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme</li>
+    <li>İşlenmişse bilgi talep etme</li>
+    <li>İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme</li>
+    <li>Yurt içinde/yurt dışında aktarıldığı üçüncü kişileri bilme</li>
+    <li>Eksik/yanlış işlenmişse düzeltilmesini isteme</li>
+    <li>Silinmesini/yok edilmesini isteme</li>
+</ul>
+
+<h2>9. Değişiklikler</h2>
+<p>
+    Bu gizlilik politikası zaman zaman güncellenebilir. 
+    Önemli değişiklikler uygulama içinde duyurulur.
+</p>
+
+<div class="contact">
+    <h2>10. İletişim</h2>
+    <p>
+        Gizlilik politikası hakkında sorularınız için:<br>
+        📧 E-posta: <a href="mailto:destek@derdinide.com">destek@derdinide.com</a><br>
+        🌐 Web: <a href="https://derdinide.com">derdinide.com</a>
+    </p>
+</div>
+
+<hr style="margin: 40px 0; border: none; border-top: 1px solid #ddd;">
+<p style="text-align: center; color: #888; font-size: 12px;">
+    © 2026 Harslantech. Tüm hakları saklıdır.
+</p>
+
+</body>
+</html>
